@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3c5c5;
+    margin: 0;
+    padding: 0;
+}
+
+.sign {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(236, 112, 112);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(163, 145, 145, 0.1);
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
+button[type="submit"] {
+    background-color: #f02d26;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#resume-output {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
